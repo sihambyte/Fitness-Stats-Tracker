@@ -13,4 +13,6 @@ struct Goals:Identifiable, Codable {
     var calorieBurnGoal: Int
     var stepsGoal: Int
     var dailyWalkGoal: Int
+    var dailyWorkoutTime: Int
+    
 }
