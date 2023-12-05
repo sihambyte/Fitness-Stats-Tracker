@@ -1,4 +1,3 @@
-//
 //  ChartView.swift
 //  Fitness Stats Tracker
 //
@@ -33,8 +32,22 @@ struct ChartView: View {
                             .font(.caption)
                     }
                 }
-            }.frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(Color.primary.opacity(0.2))
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.white) // Set background to white
+            .overlay(
+                VStack(spacing: geo.size.height / 6) {
+                    ForEach(1..<6) { _ in
+                        // Light horizontal grid lines
+                        Rectangle()
+                            .foregroundColor(Color.primary.opacity(0.2))
+                            .frame(height: 1)
+                    }
+                }
+                .frame(maxHeight: .infinity),
+                alignment: .trailing
+            )
+
             .cornerRadius(10)
             .padding(.bottom, 20)
             
@@ -50,4 +63,3 @@ struct ChartView_Previews: PreviewProvider {
         ChartView(values: values, labels: labels, xAxisLabels: xAxisValues)
     }
 }
-

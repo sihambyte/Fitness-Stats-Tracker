@@ -16,7 +16,7 @@ final class DetailViewModel: ObservableObject {
     
     static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "dd/MM"
+        formatter.dateFormat = "MM/dd"
         return formatter
     }()
     
