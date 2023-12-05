@@ -9,12 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var viewModel: AuthViewModel
+    @State var selectedTab = "Home"
     
     var body: some View {
         Group{
             if viewModel.userSession != nil {
-                 ProfileView()
-                
+                TabView(selection:$selectedTab){
+                    HomeView()
+                        .tag("Home")
+                        .tabItem{
+                            Image(systemName:"house")
+                        }
+                    ProfileView()
+                        .tag("Profile")
+                        .tabItem { 
+                            Image(systemName: "person")
+                        }
+                }
             } else{
                 LoginView()
             }

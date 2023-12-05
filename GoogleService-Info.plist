@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>API_KEY</key>
+	<string>AIzaSyA74sx3M-8Q5VTYn_wDqIpA7PuABM6cRK4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>392619392406</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sargaw-sfsu.edu.Fitness-Stats-Tracker</string>
+	<key>PROJECT_ID</key>
+	<string>fitnessstatstracker</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitnessstatstracker.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:392619392406:ios:6ceb7de562a43fdd5571b7</string>
+</dict>
+</plist>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF28F3B02B1B0DE2002C98C5 /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF28F3AF2B1B0DE2002C98C5 /* Goals.swift */; };
+		CFA626392B0857340083979D /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA626382B0857340083979D /* Activity.swift */; };
+		CFA6263B2B0859AC0083979D /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6263A2B0859AC0083979D /* HealthStat.swift */; };
+		CFA6263E2B085AB30083979D /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6263D2B085AB30083979D /* HKRepository.swift */; };
+		CFA626402B085FDA0083979D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA6263F2B085FDA0083979D /* Date+Extension.swift */; };
 		CFA734552B00894100A98590 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA734542B00894100A98590 /* LoginView.swift */; };
 		CFA734572B008D9E00A98590 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA734562B008D9E00A98590 /* InputView.swift */; };
 		CFA734592B0095D500A98590 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA734582B0095D500A98590 /* RegistrationView.swift */; };
@@ -19,6 +24,11 @@
 		CFA734682B00A76C00A98590 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CFA734672B00A76C00A98590 /* FirebaseFirestoreSwift */; };
 		CFA7346A2B00A76C00A98590 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CFA734692B00A76C00A98590 /* FirebaseStorage */; };
 		CFA7346E2B00A82400A98590 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7346D2B00A82400A98590 /* AuthViewModel.swift */; };
+		CFC3C6FD2B19ACE400A4DFE4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3C6FC2B19ACE400A4DFE4 /* HomeView.swift */; };
+		CFC3C6FF2B19AECD00A4DFE4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3C6FE2B19AECC00A4DFE4 /* DetailView.swift */; };
+		CFC3C7032B19C6B100A4DFE4 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3C7022B19C6B100A4DFE4 /* ChartView.swift */; };
+		CFC3C7052B19C83E00A4DFE4 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3C7042B19C83E00A4DFE4 /* DetailViewModel.swift */; };
+		CFC3C7232B1AFFCC00A4DFE4 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC3C7222B1AFFCC00A4DFE4 /* GoalsView.swift */; };
 		CFEE16682AE8685B00BAD88C /* Fitness_Stats_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE16672AE8685B00BAD88C /* Fitness_Stats_TrackerApp.swift */; };
 		CFEE166A2AE8685B00BAD88C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEE16692AE8685B00BAD88C /* ContentView.swift */; };
 		CFEE166C2AE8685F00BAD88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEE166B2AE8685F00BAD88C /* Assets.xcassets */; };
@@ -26,6 +36,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF28F3AF2B1B0DE2002C98C5 /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		CFA626372B04B1650083979D /* Fitness Stats Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Fitness Stats Tracker.entitlements"; sourceTree = "<group>"; };
+		CFA626382B0857340083979D /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		CFA6263A2B0859AC0083979D /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
+		CFA6263D2B085AB30083979D /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
+		CFA6263F2B085FDA0083979D /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		CFA734542B00894100A98590 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CFA734562B008D9E00A98590 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		CFA734582B0095D500A98590 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
@@ -34,6 +50,11 @@
 		CFA7345E2B00A06000A98590 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CFA734602B00A65200A98590 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CFA7346D2B00A82400A98590 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CFC3C6FC2B19ACE400A4DFE4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CFC3C6FE2B19AECC00A4DFE4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		CFC3C7022B19C6B100A4DFE4 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		CFC3C7042B19C83E00A4DFE4 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		CFC3C7222B1AFFCC00A4DFE4 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
 		CFEE16642AE8685B00BAD88C /* Fitness Stats Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Stats Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEE16672AE8685B00BAD88C /* Fitness_Stats_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_Stats_TrackerApp.swift; sourceTree = "<group>"; };
 		CFEE16692AE8685B00BAD88C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFA6263C2B085A880083979D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFA6263D2B085AB30083979D /* HKRepository.swift */,
+				CFA6263F2B085FDA0083979D /* Date+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		CFA734512B00889000A98590 /* Root */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,12 +103,16 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
-		CFA734532B0088C300A98590 /* Profile */ = {
+		CFA734532B0088C300A98590 /* Pages */ = {
 			isa = PBXGroup;
 			children = (
 				CFA7345A2B009AD700A98590 /* ProfileView.swift */,
+				CFC3C6FC2B19ACE400A4DFE4 /* HomeView.swift */,
+				CFC3C6FE2B19AECC00A4DFE4 /* DetailView.swift */,
+				CFC3C7022B19C6B100A4DFE4 /* ChartView.swift */,
+				CFC3C7222B1AFFCC00A4DFE4 /* GoalsView.swift */,
 			);
-			path = Profile;
+			path = Pages;
 			sourceTree = "<group>";
 		};
 		CFA7346B2B00A7B000A98590 /* View */ = {
@@ -94,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				CFA7346D2B00A82400A98590 /* AuthViewModel.swift */,
+				CFC3C7042B19C83E00A4DFE4 /* DetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -117,6 +152,8 @@
 		CFEE16662AE8685B00BAD88C /* Fitness Stats Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				CFA6263C2B085A880083979D /* Helpers */,
+				CFA626372B04B1650083979D /* Fitness Stats Tracker.entitlements */,
 				CFF48F642B00875400FA184E /* App */,
 				CFF48F632B00875100FA184E /* Components */,
 				CFF48F622B00874D00FA184E /* Core */,
@@ -140,6 +177,9 @@
 			isa = PBXGroup;
 			children = (
 				CFA7345E2B00A06000A98590 /* User.swift */,
+				CFA626382B0857340083979D /* Activity.swift */,
+				CFA6263A2B0859AC0083979D /* HealthStat.swift */,
+				CF28F3AF2B1B0DE2002C98C5 /* Goals.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				CFA734522B0088B500A98590 /* Authentication */,
-				CFA734532B0088C300A98590 /* Profile */,
+				CFA734532B0088C300A98590 /* Pages */,
 				CFA734512B00889000A98590 /* Root */,
 			);
 			path = Core;
@@ -251,15 +291,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC3C7052B19C83E00A4DFE4 /* DetailViewModel.swift in Sources */,
+				CF28F3B02B1B0DE2002C98C5 /* Goals.swift in Sources */,
+				CFA626392B0857340083979D /* Activity.swift in Sources */,
 				CFA734552B00894100A98590 /* LoginView.swift in Sources */,
+				CFA626402B085FDA0083979D /* Date+Extension.swift in Sources */,
 				CFA734572B008D9E00A98590 /* InputView.swift in Sources */,
 				CFEE166A2AE8685B00BAD88C /* ContentView.swift in Sources */,
 				CFEE16682AE8685B00BAD88C /* Fitness_Stats_TrackerApp.swift in Sources */,
+				CFC3C6FD2B19ACE400A4DFE4 /* HomeView.swift in Sources */,
+				CFC3C7032B19C6B100A4DFE4 /* ChartView.swift in Sources */,
 				CFA7345F2B00A06000A98590 /* User.swift in Sources */,
 				CFA7345B2B009AD700A98590 /* ProfileView.swift in Sources */,
 				CFA734592B0095D500A98590 /* RegistrationView.swift in Sources */,
+				CFA6263E2B085AB30083979D /* HKRepository.swift in Sources */,
 				CFA7345D2B009D7D00A98590 /* SettingsRowView.swift in Sources */,
+				CFC3C7232B1AFFCC00A4DFE4 /* GoalsView.swift in Sources */,
 				CFA7346E2B00A82400A98590 /* AuthViewModel.swift in Sources */,
+				CFC3C6FF2B19AECD00A4DFE4 /* DetailView.swift in Sources */,
+				CFA6263B2B0859AC0083979D /* HealthStat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,11 +435,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fitness Stats Tracker/Fitness Stats Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fitness Stats Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 757DU32TAJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to share health stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -413,11 +466,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fitness Stats Tracker/Fitness Stats Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fitness Stats Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 757DU32TAJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need access to share health stats";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
