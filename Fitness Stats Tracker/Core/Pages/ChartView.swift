@@ -22,11 +22,11 @@ struct ChartView: View {
                     VStack {
                         Text(labels[idx])
                             .font(.caption)
-                            .rotationEffect(.degrees(-60))
+                            .padding(.bottom,5)
                         
                         RoundedRectangle(cornerRadius: 5)
                             .fill(Color.blue)
-                            .frame(width: 20, height: CGFloat(values[idx]) / CGFloat(max) * geo.size.height * 0.6)
+                            .frame(width: 25, height: CGFloat(values[idx]) / CGFloat(max) * geo.size.height * 0.6)
                         
                         Text(xAxisLabels[idx])
                             .font(.caption)

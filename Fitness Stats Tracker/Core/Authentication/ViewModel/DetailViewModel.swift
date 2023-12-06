@@ -13,6 +13,7 @@ final class DetailViewModel: ObservableObject {
     var repository: HKRepository
     
     @Published var stats = [HealthStat]()
+   
     
     static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
@@ -25,6 +26,7 @@ final class DetailViewModel: ObservableObject {
         self.repository = repository
         repository.requestHealthStat(by: activity.id) { hStats in
             self.stats = hStats
+           
         }
     }
     
@@ -45,8 +47,12 @@ final class DetailViewModel: ObservableObject {
         }else if stat.is(compatibleWith: .count()) {
             let value = stat.doubleValue(for: .count())
             return (Int(value), stat.description)
-        } 
+        }else if stat.is(compatibleWith: .minute()) {
+            let value = stat.doubleValue(for: .minute())
+            return (Int(value), stat.description)
+        }
         
         return (0, "")
     }
+
 }

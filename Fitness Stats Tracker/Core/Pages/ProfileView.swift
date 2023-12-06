@@ -35,7 +35,7 @@ struct ProfileView: View {
                             }
                         }
                     }
-                    Section("General"){
+                    Section("Fitness Goals"){
                         NavigationLink{
                             GoalsView()
                                 .navigationBarBackButtonHidden(false)
@@ -47,7 +47,7 @@ struct ProfileView: View {
                             }
                             .font(.system(size: 14))
                         }
-
+                        
                     }
                     Section("Account"){
                         Button{
@@ -61,11 +61,6 @@ struct ProfileView: View {
                             SettingsRowView(imageName: "xmark.circle.fill", title: "Delete Account", tintColor: .red)
                         }
                     }
-                    // Spacer to create some separation
-                  
-                    
-                    
-
                 }
                 .navigationTitle("Profile")
             }

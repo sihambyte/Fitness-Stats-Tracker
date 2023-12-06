@@ -36,6 +36,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(activity: Activity(id: "Steps", name: "Steps", image: "👣", goal: 2000), repository: HKRepository())
+        DetailView(activity: Activity(id: "activeEnergyBurned", name: "Calories", image: "🔥", goal: 2000), repository: HKRepository())
     }
 }

@@ -36,7 +36,8 @@ struct HomeView: View {
                                         .lineLimit(1)
                                         .minimumScaleFactor(0.5)
                                         .font(.caption)
-                                }
+                                 
+}
                                 .padding()
                                 .background(RoundedRectangle(cornerRadius: 10).fill(Color.blue.opacity(0.2)))
                                 .padding()
